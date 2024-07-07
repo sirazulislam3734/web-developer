@@ -19,6 +19,9 @@
   .text-primary{
     color:rgb(253, 110, 10);
   }
+  .text-center{
+    text-align: center;
+  }
 
 /* Nav Styles */
 nav{
@@ -44,7 +47,6 @@ nav{
     padding: 18px 35px;
     border-radius: 5px;
     border: 0;
-    mar
 }
 
 /* unordered list */
@@ -98,7 +100,11 @@ nav li a{
 main{
     max-width: 1180px;
     margin: 0 auto;
-    
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* about styles */
@@ -116,4 +122,17 @@ main{
 
 .item-description{
     font-weight:600;
+}
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(236, 231, 231, 0.836);
 }
